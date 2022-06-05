@@ -1,0 +1,31 @@
+.navbar{
+    display: flex;
+    padding: .5rem;
+    align-items: center;
+    justify-content: space-between;
+    background: #f3123c;
+}
+.navbar .logo{
+    height: 2rem;
+}
+
+/*
+.buttons {
+    display: flex;
+    padding: 0 1rem;
+}
+.buttons .container--button{
+    margin-left: 0.5rem;
+    padding: 0.3rem;
+    border-radius: .2rem;
+    border: solid #FFF 3px;
+}
+.container--button .nav--buttons{
+    letter-spacing: 1px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #f3123c;
+    background: #FFF;
+    border: #FFF;
+    padding: 0.2rem;
+}*/
