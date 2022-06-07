@@ -46,17 +46,8 @@ main{
     height: 100vh;
     background: #f8f8f8;
 }
-#container--right .container--user--action{
-    position: absolute;
-    top: 50%;
-    left: 68%;
-    width: 400px;
-    padding: 40px;
-    transform: translate(-50%, -50%);
-    background: #f3123c;
-    box-shadow: 0 15px 25px #00000099;
-    border-radius: 10px;
-}
+
+  
 
 
 

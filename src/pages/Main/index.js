@@ -2,8 +2,8 @@ import { React, useState} from "react";
 import Logo from '../../assets/icon-logo.png';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import './style.css';
-import { Cadastro } from "../Cadastro";
-import { Login } from "../Login";
+import { Cadastro } from "../../components/Cadastro";
+import { Login } from "../../components/Login";
 
 export const Main = (props) => {
     const [userAction, setUserAction] = useState(true);
@@ -26,9 +26,7 @@ export const Main = (props) => {
                     <i className="next"><ArrowForwardIosIcon /></i>
             </section>
             <section id="container--right">
-                    <section className="container--user--action">
                         { renderDisplay() }
-                    </section>
             </section>
         </main>
     );

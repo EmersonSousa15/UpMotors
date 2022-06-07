@@ -1,0 +1,92 @@
+.container--user {
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    width: 400px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: #f3123c;
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius: 10px;
+  }
+  
+.container--user h2 {
+  margin: 0 0 30px;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+}
+
+.container--user .user--box {
+  position: relative;
+}
+
+.container--user .user--box input {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background: transparent;
+}
+.container--user .user--box .label--input {
+  position: absolute;
+  top:0;
+  left: 0;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  pointer-events: none;
+  transition: .5s;
+}
+
+.container--user .user--box input:focus ~ .label--input,
+.container--user .user--box input:valid ~ .label--input {
+  top: -20px;
+  left: 0;
+  font-size: 12px;
+}
+.button--user{
+  width: 200px;
+  margin-left: 20%;
+  margin-bottom: 1rem;
+  border: none;
+  padding: .5rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.container--user form .button--user {
+    border: none;
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #f3123c;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    margin-top: 40px;
+    letter-spacing: 4px
+  }
+
+.container--user .button--user:hover {
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #fff,
+              0 0 50px #ffffffb2;
+}
+.make--register{
+    color: #fff;
+    margin-left: 30%;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: 1s;
+    cursor: pointer;
+}
+
