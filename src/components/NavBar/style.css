@@ -1,31 +1,41 @@
-.navbar{
+.container--header{
+    width: 100%;
     display: flex;
-    padding: .5rem;
+    padding: 1rem;
     align-items: center;
     justify-content: space-between;
     background: #f3123c;
 }
-.navbar .logo{
-    height: 2rem;
+.container--header svg{
+    color: #fff;
+    font-size: 2rem;
 }
-
-/*
-.buttons {
+input[type="checkbox"]{
+    display: none;
+}
+.container--search{
     display: flex;
-    padding: 0 1rem;
 }
-.buttons .container--button{
-    margin-left: 0.5rem;
-    padding: 0.3rem;
-    border-radius: .2rem;
-    border: solid #FFF 3px;
+.container--search input{
+    width: 300px;
+    border: none;
+    padding-left: 10px;
+    border-radius: 1rem 0 0 1rem;
 }
-.container--button .nav--buttons{
-    letter-spacing: 1px;
+.button--search{
+    border: none;
+    display: flex;
+    align-items: center;
+    padding: 0 5px;
+    background: #fff;
+    margin: auto auto;
+    border-radius: 0 1rem 1rem 0;
+}
+.button--search svg{
+    background: #f3123c;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    padding: 3px;
+    margin: 3px;
     cursor: pointer;
-    font-weight: bold;
-    color: #f3123c;
-    background: #FFF;
-    border: #FFF;
-    padding: 0.2rem;
-}*/
+}

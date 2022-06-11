@@ -1,5 +1,9 @@
 import React from "react";
-import { NavBar } from '../../components/NavBar'
+import './style.css';
+
+import { NavBar } from '../../components/NavBar';
+import { Logo } from '../../components/Logo';
+import { Carro } from "../../components/Carro";
 
 export const Home = () => {
     return (
@@ -7,6 +11,17 @@ export const Home = () => {
             <header>
                 <NavBar/>
             </header>
+            <main>
+                <div className="container--logo">
+                    <Logo />
+                </div>
+                <section className="container--cars">
+                    <Carro />
+                    <Carro />
+                    <Carro />
+                    <Carro />
+                </section>
+            </main>
         </>
     );
 }

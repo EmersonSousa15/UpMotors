@@ -1,9 +1,13 @@
 import { React, useState} from "react";
-import Logo from '../../assets/icon-logo.png';
-import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import './style.css';
+
+import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
+
+import { Logo } from '../../components/Logo';
 import { Cadastro } from "../../components/Cadastro";
 import { Login } from "../../components/Login";
+
+
 
 export const Main = (props) => {
     const [userAction, setUserAction] = useState(true);
@@ -17,13 +21,10 @@ export const Main = (props) => {
     }
         
     return(
-        <main>
+        <main className="main--container">
             <section id="conteiner--left">
-                    <div className="container--logo">
-                        <img className="logo" src={Logo} alt="logo.png" />
-                        <h1>UpMotors</h1>
-                    </div>
-                    <i className="next"><ArrowForwardIosIcon /></i>
+                <Logo />
+                <i className="next"><ArrowForwardIosIcon /></i>
             </section>
             <section id="container--right">
                         { renderDisplay() }

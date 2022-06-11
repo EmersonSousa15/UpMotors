@@ -1,0 +1,62 @@
+.container--car{
+    width: 330px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 1.5rem;
+    border: solid 2px #e2e2e2;
+    transition: all .5s ease-in-out;
+    cursor: pointer;
+}
+.container--car img {
+    width: auto;
+    height: 200px;
+}
+
+.container--car .informations--car{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+.container--car .informations--car h1{
+    color: #5e5e5e;
+}
+
+.container--car button{
+    width: 50%;
+    height: 50px;
+    padding: .5rem;
+    margin: 1rem auto;
+    border: none;
+    border-radius: 1rem;
+    background: transparent;
+}
+.container--car .button--buy{
+    width: 33%;
+    margin: auto;
+    padding: .5rem;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    background: #f3123c;
+    border: none;
+    border-radius: .5rem;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.container--car .button--buy:hover {
+    border-radius: 1rem;
+    box-shadow: 0 0 5px #f3123c,
+                0 0 20px #f3123bd3;
+}
+
+.container--car:hover{
+   border-radius: 2rem;
+   transform: scale(1.1);
+}
+
+.heigth{
+    height: 50vh;
+}

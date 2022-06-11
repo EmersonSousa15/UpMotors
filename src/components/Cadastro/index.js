@@ -6,8 +6,8 @@ import "./style.css"
 export const Cadastro = (props) => {
 
     const register = (event) => {
-        event.preventDefault()
-        props.setAction(!props.action)
+        event.preventDefault();
+        props.setAction(!props.action);
     }
 
     return(

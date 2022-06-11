@@ -1,20 +1,33 @@
 import React from 'react';
-import Logo from '../../assets/logo.png'
+import { AiOutlineSearch, AiOutlineMenu, AiOutlineShoppingCart } from 'react-icons/ai';
+import { Redirect } from '../Redirect'
 import './style.css'
 
 export const NavBar = () => {
     return (
-        <section className='navbar'>
-            
+        <section className='container--header'>
             <section className='container--menu'>
-                <img src={Logo} alt='logo' className='logo' />
+                <input type='checkbox' id='input--menu'/>
+
+                <label for='input--menu'>
+                    <AiOutlineMenu />
+                </label>
+
                 <ul className='menu'>
-                    <li><a></a></li>
-                    <li><a></a></li>
-                    <li><a></a></li>
+                    
                 </ul>
             </section>
             
+            <div className='container--search'>
+                <input type="text" placeholder='Pesquisar modelo' />
+                <button className='button--search'>
+                    <AiOutlineSearch />
+                </button>
+            </div>
+
+            <div className='container--shopCart'>
+                <Redirect href="/Home/Carrinho" className="button--carrinho" text={<AiOutlineShoppingCart />}>  </Redirect> 
+            </div>
 
         </section>
     );

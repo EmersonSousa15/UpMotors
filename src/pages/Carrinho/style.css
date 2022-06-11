@@ -1,0 +1,15 @@
+.header--carrinho{
+    width: 100vw;
+}
+.container--products{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    text-align: center;
+}
+main .container--icon{
+    margin-bottom: 1rem;
+}
+.header--carrinho .container--shopCart {
+    display: none;
+}

@@ -1,7 +1,14 @@
 import React from "react";
 import './style.css';
 
+import { Redirect } from "../Redirect";
+
 export const Login = (props) => {
+
+    const login = (event) => {
+        event.preventDefault();
+    }
+
     return(
         <section className="container--user">
             <h2>Entrar</h2>
@@ -14,7 +21,7 @@ export const Login = (props) => {
                     <input type="password" required/>
                     <label className="label--input">Senha</label>
                 </div>
-                <button type="submit" className="button--user">Entrar</button>
+                <Redirect href="/Home" className="button--user" text="Entrar" onSubmit={() => login()}/>
             </form>
             <span className="make--register" onClick={() => props.setAction(!props.action)}>Efetuar cadastro</span>
         </section>       

@@ -1,0 +1,19 @@
+header{
+   width: 100vw;
+}
+
+main .container--logo{
+   display: flex;
+   margin-top: 1rem;
+   justify-content: center;
+}
+.container--logo h1{
+   color: #5e5e5e;
+}
+
+main .container--cars{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   margin: 1rem auto;
+}

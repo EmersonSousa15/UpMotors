@@ -58,6 +58,8 @@
   padding: .5rem;
   border-radius: 8px;
   cursor: pointer;
+  background: #fff;
+  text-align: center;
 }
 .container--user form .button--user {
     border: none;
