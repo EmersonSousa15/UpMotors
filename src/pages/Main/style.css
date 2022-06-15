@@ -24,6 +24,9 @@
     background: linear-gradient(#f3123c, #f7607c);
 }
 
+.conteiner--left h1{
+    color: #fff;
+}
 
 #container--right{
     width: 67%;

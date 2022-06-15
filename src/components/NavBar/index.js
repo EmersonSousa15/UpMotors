@@ -3,19 +3,29 @@ import { AiOutlineSearch, AiOutlineMenu, AiOutlineShoppingCart } from 'react-ico
 import { Redirect } from '../Redirect'
 import './style.css'
 
+import { Menu } from '../Menu';
+
 export const NavBar = () => {
+
+    let styleMenu = {
+        "margin-left": "1rem"
+    }
+
+    let styleCar = {
+        "margin-right": "2rem"
+    }
+
     return (
         <section className='container--header'>
             <section className='container--menu'>
                 <input type='checkbox' id='input--menu'/>
 
                 <label for='input--menu'>
-                    <AiOutlineMenu />
+                    <AiOutlineMenu style={styleMenu}/>
                 </label>
 
-                <ul className='menu'>
-                    
-                </ul>
+                <Menu />
+
             </section>
             
             <div className='container--search'>
@@ -26,7 +36,7 @@ export const NavBar = () => {
             </div>
 
             <div className='container--shopCart'>
-                <Redirect href="/Home/Carrinho" className="button--carrinho" text={<AiOutlineShoppingCart />}>  </Redirect> 
+                <Redirect href="/Home/Carrinho" className="button--carrinho" text={<AiOutlineShoppingCart style={styleCar} />}>  </Redirect> 
             </div>
 
         </section>

@@ -1,0 +1,97 @@
+.header--payment{
+    margin: 1rem;
+    text-align: center;
+}
+
+.main--payment{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.method--payment{
+    width: 200px;
+    margin: 2rem auto;
+    background: #fff;
+    text-align: center;
+    color: #f3123c;
+    border-radius: 2rem;
+}
+.method--payment #checked--radio{
+    margin: 1rem;
+}
+.method--payment label{
+    font-weight: bold;
+}
+
+
+
+.user--infor {
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    width: 400px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: #f3123c;
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius: 10px;
+  }
+
+.user--infor .user--box {
+  position: relative;
+}
+
+.user--infor .user--box input {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background: transparent;
+}
+.user--infor .user--box .label--input {
+  position: absolute;
+  top:0;
+  left: 0;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  pointer-events: none;
+  transition: .5s;
+}
+
+.user--infor .user--box input:focus ~ .label--input,
+.user--infor .user--box input:valid ~ .label--input {
+  top: -20px;
+  left: 0;
+  font-size: 12px;
+}
+
+
+.button--pagar{
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 2px;   
+    width: 100px;
+    padding: .5rem;
+    color: #f3123c;
+    text-align: center;
+    text-decoration: none;
+    background: #fff;
+    border: none;
+    border-radius: .5rem;
+    cursor: pointer;
+    transition: 1s;
+}
+.button--pagar:hover {
+    border-radius: 1rem;
+    box-shadow: 0 0 5px #fff,
+                0 0 20px #ffffffb6;
+}
+
+input[type=date]::-webkit-datetime-edit{ color: transparent; }

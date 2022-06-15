@@ -5,7 +5,7 @@ import './App.css';
 
 export const App = () => {
   return (
-   <Router>
+   <Router basename={process.env.PUBLIC_URL}>
       <MainRoutes />
    </Router>
   );

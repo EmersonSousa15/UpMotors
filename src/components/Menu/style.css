@@ -1,0 +1,28 @@
+.menu{
+    z-index: 99;
+    width: 20%;
+    height: 91.6vh;
+    position: absolute;
+    text-align: center;
+    background: linear-gradient(#f3123c, #f7607c);
+    transition: 1s;
+    left: -30vw;
+}
+.menu li{
+    padding: 1rem;
+    border-bottom: 1px solid #fff;
+    margin: 3rem;
+    transition: all .5s ease-in-out;
+}
+li .item{
+    font-size: 1.5rem;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu li:hover {
+    border-radius: 2rem;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    transform: scale(1.1);
+}

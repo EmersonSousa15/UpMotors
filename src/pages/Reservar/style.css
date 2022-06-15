@@ -1,23 +1,7 @@
-.header--carrinho{
-    width: 100vw;
-}
-.container--products{
-    position: absolute;
-    top: 40%;
-    left: 40%;
+.container--button--home{
     text-align: center;
 }
-main .container--icon{
-    margin-bottom: 1rem;
-}
-.header--carrinho .container--shopCart {
-    display: none;
-}
-
-.container--purshase--car{
-    text-align: center;
-}
-.container--purshase--car button{
+.container--button--home button{
     width: 300px;
     height: 100px;
     padding: 1rem;
@@ -26,7 +10,8 @@ main .container--icon{
     border-radius: 1rem;
     background: transparent;
 }
-.container--purshase--car .button--purshase{   
+.container--button--home .button--home{   
+    width: 100%;
     font-size: 1rem;
     font-weight: bold;
     letter-spacing: 2px;
@@ -42,7 +27,7 @@ main .container--icon{
     transition: 1s;
 }
 
-.container--purshase--car .button--purshase:hover {
+.container--button--home .button--home:hover {
     border-radius: 1rem;
     box-shadow: 0 0 5px #f3123c,
                 0 0 20px #f3123bd3;

@@ -12,11 +12,10 @@ export const Home = () => {
                 <NavBar/>
             </header>
             <main>
-                <div className="container--logo">
+                <div className="container--logo--home">
                     <Logo />
                 </div>
                 <section className="container--cars">
-                    <Carro />
                     <Carro />
                     <Carro />
                     <Carro />

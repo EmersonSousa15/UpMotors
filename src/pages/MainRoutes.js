@@ -7,6 +7,9 @@ import { Main }  from './Main';
 import { Home } from './Home';
 import { Carrinho } from './Carrinho';
 import { Comprar } from './Comprar';
+import { Pagamento } from './Pagamento';
+import { Avaliacao } from './Avaliacao';
+import { Reservar } from './Reservar';
 
 export const MainRoutes = () => {
 
@@ -22,8 +25,11 @@ export const MainRoutes = () => {
             <Route path="/" element={<Main />} />
             <Route path="/Home" element={<Home />} />
             <Route path="/Home/Carrinho" element={<Carrinho />} />
+            <Route path="/Home/Reservar" element={<Reservar />} />
             <Route path="/Home/Comprar" element={<Comprar />}/>
             <Route path="/Home/Comprar/Carrinho" element={<Carrinho car={infor} />} />
+            <Route path="/Home/Comprar/Pagamento" element={<Pagamento />} />
+            <Route path="/Home/Comprar/Pagamento/Avaliacao" element={<Avaliacao />} />
         </Routes>
     )
 }

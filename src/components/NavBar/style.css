@@ -1,7 +1,7 @@
 .container--header{
     width: 100%;
     display: flex;
-    padding: 1rem;
+    padding: 1rem 0;
     align-items: center;
     justify-content: space-between;
     background: #f3123c;
@@ -13,6 +13,10 @@
 input[type="checkbox"]{
     display: none;
 }
+.container--menu #input--menu:checked ~ .menu{
+    left: 0vw !important;
+}
+
 .container--search{
     display: flex;
 }
