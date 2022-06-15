@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/EmersonSousa15/static/css/main.6de80fea.css",
+    "main.js": "/EmersonSousa15/static/js/main.062cc02f.js",
+    "static/media/honda_civic_drive.jpg": "/EmersonSousa15/static/media/honda_civic_drive.188dd79833c9cc729d3b.jpg",
+    "static/media/honda_civic.webp": "/EmersonSousa15/static/media/honda_civic.c895704a74587a023472.webp",
+    "static/media/honda_civic_perfil.jpg": "/EmersonSousa15/static/media/honda_civic_perfil.579791ed4c840235c09f.jpg",
+    "index.html": "/EmersonSousa15/index.html",
+    "main.6de80fea.css.map": "/EmersonSousa15/static/css/main.6de80fea.css.map",
+    "main.062cc02f.js.map": "/EmersonSousa15/static/js/main.062cc02f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6de80fea.css",
+    "static/js/main.062cc02f.js"
+  ]
+}
