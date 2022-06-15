@@ -2,7 +2,7 @@
   "name": "client",
   "version": "0.1.0",
   "private": "UNLICENSED",
-  "homepage": "https://github.com/EmersonSousa15",
+  "homepage": "gh-pages/",
   "dependencies": {
     "@babel/core": "^7.18.2",
     "@babel/preset-env": "^7.18.2",
